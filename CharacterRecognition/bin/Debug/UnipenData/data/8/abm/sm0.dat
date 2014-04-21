@@ -1,0 +1,5 @@
+.VERSION 1.0
+.INCLUDE abm/abm0.doc
+.INCLUDE abm/data/sm0.dat
+.SEGMENT TEXT 173-187 OK "Bad Oeynhausen"
+.SEGMENT TEXT 220-234 OK "Bergisch Gladbach"

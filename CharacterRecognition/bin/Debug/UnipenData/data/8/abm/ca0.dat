@@ -1,0 +1,6 @@
+.VERSION 1.0
+.INCLUDE abm/abm0.doc
+.INCLUDE abm/data/ca0.dat
+.SEGMENT TEXT 86-94 GOOD "Bad Homburg"
+.SEGMENT TEXT 95-105 GOOD "Bad Kreuznach"
+.SEGMENT TEXT 106-114 GOOD "Bad Oeynhausen"

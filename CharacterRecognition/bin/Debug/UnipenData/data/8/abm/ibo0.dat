@@ -1,0 +1,5 @@
+.VERSION 1.0
+.INCLUDE abm/abm0.doc
+.INCLUDE abm/data/ibo0.dat
+.SEGMENT TEXT 229-251 OK "Bad Oeynhausen"
+.SEGMENT TEXT 252-274 OK "Bad Salzuflen"

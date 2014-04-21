@@ -1,0 +1,117 @@
+.VERSION 1.0
+.COMMENT ######################################################################
+         ### SKELETON OF DOCUMENTATION FILE FOR ISOLATED CHARACTER DATABASE ###
+         ######################################################################
+
+
+         preliminary version of document file
+
+
+.DATA_SOURCE    AB+M_GmbH
+.DATA_ID        abm0
+
+.COMMENT Use the .ALPHABET specified (the same for all the databases of the
+         benchmark). It should be a superset of the character labels that
+         you are using. Optionally use .ALPHABET_FREQ to specify character
+         frequencies by replacing the 1's by appropriate values.
+
+.ALPHABET       "0" "1" "2" "3" "4" "5" "6" "7" "8" "9" 
+                "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M"
+                "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z" 
+                "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m"
+                "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z" 
+                "~" "!" "@" "#" "$" "%" "^" "&" "*" "(" ")" "-" "+"
+                "=" "|" "\\" "/" "{" "}" "?" "[" "]" "\"" ":" "<" ">"
+                "," "." ";" "'" "`" "_" " "
+
+.ALPHABET_FREQ  1 1 1 1 1 1 1 1 1 1
+                1 1 1 1 1 1 1 1 1 1 1 1 1
+                1 1 1 1 1 1 1 1 1 1 1 1 1
+                1 1 1 1 1 1 1 1 1 1 1 1 1
+                1 1 1 1 1 1 1 1 1 1 1 1 1
+                1 1 1 1 1 1 1 1 1 1 1 1 1
+                1 1 1 1 1 1 1 1 1 1 1 1 1
+                1 1 1 1 1 1 1
+
+.COMMENT Use the .HIERARCHY CHARACTER for isolated characters as specified.
+         This means that only the .SEGMENT type CHARACTER is allowed
+         in data files which include this file. Character labels may be any
+         label from .ALPHABET.
+
+.HIERARCHY  TEXT WORD CHAR
+
+.DATA_CONTACT 
+         Name:            Michael J. Boldt
+         Affiliation:     AB+M GmbH
+         Address:         Haid-und-Neu-Str. 7
+         Phone:           (+721) 9658-580
+         Fax:             (+721) 9658-584
+         Email:           schaefr@ira.uka.de
+
+.SETUP   Site:                                 AB+M
+         Time:                                 Sept. 1994
+         Writer population:                    academic
+         Writer motivation:                    volunteer
+         Writer physical position:             sitting
+         Instructions given to the writer:
+             Words were displayed one at a time in only uppercase letters;
+             writer was free to use upper or lower case or mixed;
+             there may be errors in spelling.
+         Duration of one session:              1.5 -- 2 hours
+         Recognizer feedback:                  no
+         Form layout:                          see files sp?.tif
+
+.DATA_INFO    
+         Set type:            training or test
+         Alphabet:            English keyboard alphanumerics
+         Lexicon:             names of german cities
+         Label distribution:  each label was written once
+         Quantity:            each person wrote about 300 words
+         Quality:             no cleaning
+         Number of Writer(s): seven
+         Writing Style:       mixed
+         Segmentation:        words
+
+.PAD     Machine name:    WACOM SD-321E
+         Brand:           Wacom
+         Type:            SD-321E
+         Serial Nr.:      2c0jb0030
+         Sensor:          Electromagnetic, wireless pen.
+         Pen:             SP-200, untethered, tip switch and side button.
+                          Tip switch used for PenUp/PenDown determination.
+                          Ballpen tip for writer feedback.
+         Driver:          Custom-made, using Wacom-II commands,
+                          Version V3.3.1.01.
+                          Using binary serial transmission at 19200 baud.
+         Sampling mode:   Continuous, equidistant; PenUp recognized up to
+                          4 mm above the tablet. No points and time information
+                          available if outside this range, sorry.
+         Sampling rate:   100 points per second
+         Resolution:      1270 lines per inch
+         Accuracy:        plus-minus 0.15 mm
+         Width:           381 mm
+         Height:          381 mm
+         Display:         NeXT monochrome monitor (91 dpi), online traced.
+                          The writer only looked at the paper.
+         Inking:          Black trace 1 pixel thick on white background. 
+                          Black ballpen on white paper electrostatically fixed.
+
+
+.COMMENT #####################
+         ###  DATA LAYOUT  ###
+         #####################
+
+	 Only the tablet range garatees all points inside.
+
+.X_DIM   19000
+.Y_DIM   19000
+.COMMENT             not used      .H_LINE   75
+
+.COMMENT #####################
+         ###  UNIT SYSTEM  ###
+         #####################
+
+.X_POINTS_PER_INCH  1270
+.Y_POINTS_PER_INCH  1270 
+.POINTS_PER_SECOND   100
+.COORD               X Y

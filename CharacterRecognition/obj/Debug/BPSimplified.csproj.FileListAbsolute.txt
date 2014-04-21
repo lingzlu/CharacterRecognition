@@ -1,0 +1,12 @@
+C:\Users\lu3421.SOONER\Desktop\BPSimplified\bin\Debug\BPSimplified.exe.config
+C:\Users\lu3421.SOONER\Desktop\BPSimplified\bin\Debug\BPSimplified.exe
+C:\Users\lu3421.SOONER\Desktop\BPSimplified\bin\Debug\BPSimplified.pdb
+C:\Users\lu3421.SOONER\Desktop\BPSimplified\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lu3421.SOONER\Desktop\BPSimplified\obj\Debug\BPSimplified.NeuralDemo.resources
+C:\Users\lu3421.SOONER\Desktop\BPSimplified\obj\Debug\BPSimplified.Properties.Resources.resources
+C:\Users\lu3421.SOONER\Desktop\BPSimplified\obj\Debug\ResGen.read.1.tlog
+C:\Users\lu3421.SOONER\Desktop\BPSimplified\obj\Debug\ResGen.write.1.tlog
+C:\Users\lu3421.SOONER\Desktop\BPSimplified\obj\Debug\BPSimplified.exe
+C:\Users\lu3421.SOONER\Desktop\BPSimplified\obj\Debug\BPSimplified.pdb
+C:\Users\lu3421.SOONER\Desktop\BPSimplified\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\lu3421.SOONER\Desktop\BPSimplified\obj\Debug\GenerateResource.write.1.tlog
